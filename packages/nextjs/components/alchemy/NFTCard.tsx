@@ -1,11 +1,12 @@
 import React from "react";
+import Image from "next/image";
 
 const NFTCard = ({ title, description, image, quantity, buttons }) => {
   return (
     <div className="card w-80 bg-base-100 shadow-xl overflow-hidden">
       {/* Image section with quantity badge */}
       <figure className="relative h-56">
-        <img src={image} alt={title} className="w-full h-full object-cover" />
+        <Image src={image} alt={title} className="w-full h-full object-cover" />
         <span className="badge badge-neutral absolute top-2 right-2">{quantity}</span>
       </figure>
 
