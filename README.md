@@ -1,6 +1,8 @@
 # 🏗 Alchemy dApp
 
-This repository contains a dApp that mimic the functionality of a forgery. There are few rules in this dApp:
+This repository contains a dApp that mimic the functionality of a forgery written in solidity and react.
+
+There are few rules in this dApp:
 
 - Iron, Copper and Silver are the only materials that can be used to create a forgery.
 - Gold can be forged by burning Iron and Copper
